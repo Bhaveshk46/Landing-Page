@@ -1,6 +1,8 @@
 body{
     background-color: white;
     margin: 0;
+    font-family: "Roboto", sans-serif;
+
 }
 .hero-logo{
     font-size: 24px;
@@ -14,9 +16,7 @@ a{
     font-size: 18px;
     
 }
-body{
-    font-family: "Roboto", sans-serif;
-}
+
 .content1{
     background-color: #1F2937;
     flex:1;
@@ -33,7 +33,6 @@ body{
 .hero-secondary{
     font-size: 18px;
     color: #E5E7EB;
-    width:1;
       margin-top: 0px;
 }
 button{
@@ -143,4 +142,30 @@ button{
     justify-content: end;
     font-weight:700;
  
+}
+.dialogue-box{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 30px 150px;
+    gap: 200px;
+}
+.content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 80px;
+    
+}
+.button2 button{
+    border: 2px solid white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 10px;
 }
