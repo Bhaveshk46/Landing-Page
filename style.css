@@ -141,7 +141,7 @@ button{
     display: flex;
     justify-content: end;
     font-weight:700;
- 
+    font-size: 18px;
 }
 .dialogue-box{
     display: flex;
